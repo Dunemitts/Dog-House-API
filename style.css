@@ -1,0 +1,103 @@
+/* Reset all margins */
+* {
+    margin: 0px;
+}
+
+/* Set the background color and center content in the body */
+body {
+    background-color: #BFA7A6;
+    justify-content: center;
+}
+
+/* Style the header tags */
+h1, h2, h3 {
+    height: 50px;
+    width: 100%;
+    background-color: #BF8173;  
+    padding-top: 10px;
+    color: black;
+    text-align: center; 
+    position: fixed;
+}
+
+/* Style paragraphs */
+p {
+    height: 50px;
+    padding-top: 10px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    background-color: #BFA7A6;
+}
+
+/* Style list items */
+li {
+    height: 70px;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    list-style-type: none;
+    background-image: url(images/backgroundDog.jpg);
+    background-size: 100%;
+}
+
+/* Style the results section */
+#selectResults {
+    padding-top: 5%;
+}
+
+/* Style the selection list */
+#selectionList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+}
+
+/* Style the header */
+.header {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Style the h1 within the header */
+.header h1 {
+    position: fixed;
+    background-color: #592F2F;
+    text-align:center;
+    color: yellow;
+    border-bottom: 5px solid #BF8173;
+}
+
+/* Style the form */
+form {
+    position: fixed;
+    height: 35px;
+    top: 1.5%;
+    left: 1%;
+    display: flex;
+    align-items: center;
+}
+
+/* Style the breed label */
+label[for="breed"] {
+    display: none;
+}
+
+/* Style the breed select */
+#selectBreed {
+    font-size: large;
+}
+
+/* Style the submission button */
+#submission {
+    font-size: larger;
+    height: 26px;
+}

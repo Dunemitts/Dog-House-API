@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dog House API Assignment</title>
+
+		<!-- Include jQuery library -->
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+		<!-- Include the JavaScript file -->
+		<script src="DogHouse.js"></script>
+
+		<!-- Include the CSS stylesheet -->
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<!-- Header for the webpage -->
+		<div class="header">
+			<h1>Dog House API</h1>
+		</div>
+
+		<!-- Selecting a breed -->
+		<form onsubmit="return formSubmission();" class="breed-form">
+			<label for="breed">Select Breed:</label>
+			<!-- Dropdown menu -->
+			<select name="breed" id="selectBreed"></select>
+			<!-- Submit button -->
+			<input type="submit" value="Submit" id="submission">
+		</form>
+
+		<!-- Display the results -->
+		<div id="selectResults">
+			<!-- Create a list for displaying the names of the dogs -->
+			<ul id="selectionList"></ul>
+		</div>
+	</body>
+</html>
